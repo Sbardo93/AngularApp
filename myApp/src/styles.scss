@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files 
+
+   Leggi qui per istruzioni https://sass-lang.com/guide
+*/
+$fa-font-path: "assets/font-awesome/fonts";
+@import "assets/font-awesome/scss/font-awesome.scss";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web');
+$font-base: 'Titillium Web', sans-serif;
+$font-corsivo: 'Indie Flower', cursive;
+
+body{
+    font-family: $font-base;
+}
