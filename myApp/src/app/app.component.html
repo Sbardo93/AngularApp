@@ -1,7 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <img width="250" alt="Logo" src="../assets/images/icon.png">
+  <!--<img width="250" alt="Logo" src="../assets/images/icon.png"> -->
   <h1>
-   Benvenuto su {{ title }}!
+   Benvenuto su "{{ title }}"!
   </h1>
+
+  <ul>
+    <li><a routerLink="">Login <mat-icon>lock open</mat-icon></a></li>
+    <li><a routerLink="home">Home <mat-icon>home</mat-icon></a></li>
+    <li><a routerLink="user">Profilo <mat-icon>face</mat-icon></a></li>
+    <li><a routerLink="bot">Bot <mat-icon>android</mat-icon></a></li>
+  </ul>
+
+  <router-outlet></router-outlet>
 </div>
+

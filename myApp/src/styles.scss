@@ -2,6 +2,9 @@
 
    Leggi qui per istruzioni https://sass-lang.com/guide
 */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '~@angular/material/prebuilt-themes/indigo-pink.css'; 
+
 $fa-font-path: "assets/font-awesome/fonts";
 @import "assets/font-awesome/scss/font-awesome.scss";
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web');
@@ -10,4 +13,9 @@ $font-corsivo: 'Indie Flower', cursive;
 
 body{
     font-family: $font-base;
+    
+    h3{
+        color: red;
+        font-family: $font-corsivo;
+    }
 }
